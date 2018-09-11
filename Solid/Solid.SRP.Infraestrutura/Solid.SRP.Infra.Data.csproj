@@ -5,10 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contexto\" />
     <Folder Include="EntityConfig\" />
-    <Folder Include="Migrations\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Solid.SRP.Domain\Solid.SRP.Domain.csproj" />
   </ItemGroup>
 
 </Project>
